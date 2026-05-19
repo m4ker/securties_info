@@ -1,0 +1,6 @@
+# Securities 配置 - 开发环境
+# 使用 securities.env=dev 或不设置（默认 dev）
+
+# 缓存目录
+cache:
+  dir: D:\Projects\HelloCodeBuddy\securities-cache

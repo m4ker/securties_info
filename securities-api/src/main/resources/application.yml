@@ -1,0 +1,23 @@
+# Securities API Configuration
+spring:
+  application:
+    name: securities-api
+
+server:
+  port: 8080
+
+# Actuator endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+# Logging
+logging:
+  level:
+    com.securities.info: INFO
+    okhttp3: WARN

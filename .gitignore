@@ -1,0 +1,29 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Build output
+target/
+*.class
+*.jar
+*.war
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Codebuddy
+.codebuddy/
+
+# Other
+*.dumpstream
+*.orig

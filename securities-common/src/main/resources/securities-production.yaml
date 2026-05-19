@@ -1,0 +1,6 @@
+# Securities 配置 - 生产环境
+# 使用 securities.env=production 激活此配置
+
+# 缓存目录
+cache:
+  dir: ${user.home}/securities-cache
